@@ -155,6 +155,12 @@ html {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 5s;
+}
+
+.slideshow div.change {
+  opacity: 1;
 }
 /* End of Slideshow */
 /* End of Section 1 */
