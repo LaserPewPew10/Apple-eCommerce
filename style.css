@@ -475,6 +475,7 @@ html {
 /* Section 3 Loading */
 .loading-wrapper {
   position: absolute;
+  top: 6%;
   width: 60%;
   height: 85%;
   background: linear-gradient(
@@ -482,8 +483,14 @@ html {
       rgba(255, 255, 255, 0.4)
     ),
     url(images/MacBook//macbook-1-desktop.png) center no-repeat;
+  z-index: -1;
 }
 /* End of Section 3 Loading */
+/* Section 3 Info */
+.macbook-info {
+  position: absolute;
+}
+/* End of Section 3 Info */
 /* End of Section 3 Content */
 
 /* End of Section 3 */
