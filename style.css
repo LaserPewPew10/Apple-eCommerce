@@ -646,6 +646,11 @@ html {
   border-radius: 5rem;
 }
 
+.hideControl {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .watch-control i {
   font-size: 3rem;
   color: var(--primary-color);
