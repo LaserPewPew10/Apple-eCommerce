@@ -62,7 +62,6 @@ document.querySelector('.controls').addEventListener('mouseout', () => {
 });
 
 // End of Cube
-// End of Cube
 
 // Slideshow
 const slideshowDivs = () => {
