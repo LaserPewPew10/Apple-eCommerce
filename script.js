@@ -1,5 +1,9 @@
 // Common JS
-document.querySelectorAll('.watch-control, .controls a');
+document.querySelectorAll('.watch-control, .controls a').forEach((control) => {
+  control.addEventListener('click', (e) => {
+    e.preventDefault();
+  });
+});
 // End of Common JS
 
 // Cube
@@ -120,4 +124,11 @@ const watchTopControl = document.querySelector('.watch-top-control');
 const watchRightControl = document.querySelector('.watch-right-control');
 const watchBottomControl = document.querySelector('.watch-bottom-control');
 const watchLeftControl = document.querySelector('.watch-left-control');
+
+let axisY = 0;
+let axisX = 0;
+
+watchTopControl.addEventListener('click', () => {
+  watchCases.style.marginTop = `${(axisY -= 70)}rem`;
+});
 // End of Section 4

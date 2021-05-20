@@ -622,6 +622,7 @@ html {
 /* Watch Cases */
 .watch-cases {
   flex-direction: column;
+  transition: margin-top 1s;
 }
 
 .watch-case-img {
